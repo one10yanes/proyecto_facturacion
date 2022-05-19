@@ -4,19 +4,17 @@ package controlador;
 import java.awt.event.ActionEvent;
 import vista.PaginaPrincipal;
 
-public class ctrlPaginaPrincipal {
+        
 
-    private PaginaPrincipal Principal;
+public class ctrlPrincipal {
+    private PaginaPrincipal pp;
     
-    public ctrlPaginaPrincipal(PaginaPrincipal vista){
-    Principal = vista;
+    public ctrlPrincipal(PaginaPrincipal vista){
+    pp = vista;
     }
     
     public void actionPerformed(ActionEvent e) {
         
      }
-    
-    
-    
     
 }
